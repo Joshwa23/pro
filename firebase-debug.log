@@ -1,0 +1,44 @@
+[debug] [2025-08-27T10:38:03.014Z] ----------------------------------------------------------------------
+[debug] [2025-08-27T10:38:03.020Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\joshwa\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2025-08-27T10:38:03.021Z] CLI Version:   14.14.0
+[debug] [2025-08-27T10:38:03.021Z] Platform:      win32
+[debug] [2025-08-27T10:38:03.021Z] Node Version:  v22.18.0
+[debug] [2025-08-27T10:38:03.022Z] Time:          Wed Aug 27 2025 16:08:03 GMT+0530 (India Standard Time)
+[debug] [2025-08-27T10:38:03.022Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-08-27T10:38:03.516Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-08-27T10:38:03.516Z] > authorizing via signed-in user (astrojoshwa@gmail.com)
+[debug] [2025-08-27T10:38:03.517Z] [iam] checking project jobsea-ada2d for permissions ["firebase.projects.get"]
+[debug] [2025-08-27T10:38:03.518Z] Checked if tokens are valid: true, expires at: 1756293158207
+[debug] [2025-08-27T10:38:03.519Z] Checked if tokens are valid: true, expires at: 1756293158207
+[debug] [2025-08-27T10:38:03.521Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/jobsea-ada2d:testIamPermissions [none]
+[debug] [2025-08-27T10:38:03.521Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/jobsea-ada2d:testIamPermissions x-goog-quota-user=projects/jobsea-ada2d
+[debug] [2025-08-27T10:38:03.521Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/jobsea-ada2d:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-08-27T10:38:05.109Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/jobsea-ada2d:testIamPermissions 200
+[debug] [2025-08-27T10:38:05.110Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/jobsea-ada2d:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-08-27T10:38:05.112Z] Checked if tokens are valid: true, expires at: 1756293158207
+[debug] [2025-08-27T10:38:05.112Z] Checked if tokens are valid: true, expires at: 1756293158207
+[debug] [2025-08-27T10:38:05.112Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/jobsea-ada2d [none]
+[debug] [2025-08-27T10:38:05.618Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/jobsea-ada2d 200
+[debug] [2025-08-27T10:38:05.619Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/jobsea-ada2d {"projectNumber":"867159458544","projectId":"jobsea-ada2d","lifecycleState":"ACTIVE","name":"JOBSEA","labels":{"firebase":"enabled","firebase-core":"disabled"},"createTime":"2025-08-26T09:54:10.224663Z"}
+[info] 
+[info] === Serving from 'C:\Users\joshwa\Desktop\JobApp'...
+[info] 
+[debug] [2025-08-27T10:38:05.626Z] Checked if tokens are valid: true, expires at: 1756293158207
+[debug] [2025-08-27T10:38:05.626Z] Checked if tokens are valid: true, expires at: 1756293158207
+[debug] [2025-08-27T10:38:05.626Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/jobsea-ada2d/sites 
+[debug] [2025-08-27T10:38:06.943Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/jobsea-ada2d/sites 200
+[debug] [2025-08-27T10:38:06.944Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/jobsea-ada2d/sites {"sites":[{"name":"projects/jobsea-ada2d/sites/jobsea-ada2d","defaultUrl":"https://jobsea-ada2d.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2025-08-27T10:38:06.944Z] Checked if tokens are valid: true, expires at: 1756293158207
+[debug] [2025-08-27T10:38:06.944Z] Checked if tokens are valid: true, expires at: 1756293158207
+[debug] [2025-08-27T10:38:06.944Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/jobsea-ada2d/webApps/-/config [none]
+[debug] [2025-08-27T10:38:07.666Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/jobsea-ada2d/webApps/-/config 200
+[debug] [2025-08-27T10:38:07.666Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/jobsea-ada2d/webApps/-/config {"projectId":"jobsea-ada2d","storageBucket":"jobsea-ada2d.firebasestorage.app","apiKey":"AIzaSyCYFsHJ4M2ympDHDRuhWfKIst7vUYnYQcI","authDomain":"jobsea-ada2d.firebaseapp.com","messagingSenderId":"867159458544"}
+[debug] [2025-08-27T10:38:07.676Z] Checked if tokens are valid: true, expires at: 1756293158207
+[debug] [2025-08-27T10:38:07.677Z] Checked if tokens are valid: true, expires at: 1756293158207
+[debug] [2025-08-27T10:38:07.678Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/jobsea-ada2d [none]
+[debug] [2025-08-27T10:38:08.106Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/jobsea-ada2d 200
+[debug] [2025-08-27T10:38:08.106Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/jobsea-ada2d {"projectId":"jobsea-ada2d","projectNumber":"867159458544","displayName":"JOBSEA","name":"projects/jobsea-ada2d","resources":{"hostingSite":"jobsea-ada2d"},"state":"ACTIVE","etag":"1_21927111-311c-4424-8ae3-6f7b08a8638f"}
+[info] i  hosting[jobsea-ada2d]: Serving hosting files from: .node {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1m.node\u001b[22m"}}
+[info] +  hosting[jobsea-ada2d]: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[info] i  hosting: ::1 - - [27/Aug/2025:10:38:11 +0000] "GET /__/firebase/init.js?useEmulator=true HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [27/Aug/2025:10:38:11 +0000] \"GET /__/firebase/init.js?useEmulator=true HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\""}}
